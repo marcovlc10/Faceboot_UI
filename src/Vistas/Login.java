@@ -4,10 +4,7 @@ package Vistas;
 import javax.swing.JFrame;
 
 public class Login extends javax.swing.JFrame {
-
-    /**
-     * Creates new form Login
-     */
+    
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
@@ -18,9 +15,7 @@ public class Login extends javax.swing.JFrame {
         CampoTextoContraseña.setText(null);
     }
     
-    public void metodoPruebaSourceTree(){
-        System.out.println("puro pinchi juárez");
-    }
+    
 
     /**
      * This method is called from within the constructor to initialize the form.

@@ -6,9 +6,6 @@ import javax.swing.JOptionPane;
 
 public class Perfil extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Perfil
-     */
     public Perfil() {
         initComponents();
         this.setLocationRelativeTo(null);

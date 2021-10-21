@@ -6,9 +6,6 @@ import javax.swing.JOptionPane;
 
 public class Registrar extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Registrar
-     */
     public Registrar() {
         initComponents();
         this.setLocationRelativeTo(null);
