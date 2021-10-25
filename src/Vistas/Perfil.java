@@ -245,7 +245,7 @@ public class Perfil extends javax.swing.JFrame {
     }//GEN-LAST:event_BtnCerrarSesionActionPerformed
 
     private void BtnVolverMuroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnVolverMuroActionPerformed
-        Principal principalForm = new Principal();
+        Inicio principalForm = new Inicio();
         principalForm.setVisible(true);
         principalForm.pack();
         principalForm.setLocationRelativeTo(null);
