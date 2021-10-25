@@ -184,7 +184,7 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel1MouseClicked
 
     private void BtnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnLoginActionPerformed
-        Principal principalForm = new Principal();
+        Inicio principalForm = new Inicio();
         principalForm.setVisible(true);
         principalForm.pack();
         principalForm.setLocationRelativeTo(null);
