@@ -33,15 +33,23 @@ public class Inicio extends javax.swing.JFrame {
     }
 
     private void publicar() throws BadLocationException {
-        JTextPane frontPane=new JTextPane();
-        StyledDocument doc=frontPane.getStyledDocument();
-        frontPane.setSize((txtPanePublicaciones.getWidth()-200), (txtPanePublicaciones.getHeight()/4));
+        JTextPane frontPane = new JTextPane();
+        StyledDocument doc = frontPane.getStyledDocument();
+        frontPane.setSize((txtPanePublicaciones.getWidth() - 200), (txtPanePublicaciones.getHeight() / 4));
         frontPane.setBackground(Color.GREEN);
         txtPanePublicaciones.add(frontPane);
 //        txtPanePublicaciones.revalidate();
 //        txtPanePublicaciones.repaint();
         doc.insertString(doc.getLength(),
-                "Vete derechito, sin agarrar curvas, sin pasar por caseta y a 300 por la carretera directito a CHINGAR A TU PUTISIMA BOMBA MADRE MEGACABLE",
+                "Mayonesa\n"
+                + "Ella me bate como haciendo mayonesa\n"
+                + "Todo lo que había tomado\n"
+                + "Se me subió pronto a la cabeza\n"
+                + "Mayonesa\n"
+                + "Ella me bate como haciendo mayonesa\n"
+                + "No sé ni cómo me llamo\n"
+                + "Ni dónde vivo (Ni dónde vivo)\n"
+                + "Ni me interesa",
                 attr);
     }
 
@@ -186,8 +194,8 @@ public class Inicio extends javax.swing.JFrame {
             panelPublicacionLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelPublicacionLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(jScrollPane2)
+                .addContainerGap())
         );
 
         jTextField1.setText("Buscar...");
